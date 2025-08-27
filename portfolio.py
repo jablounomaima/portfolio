@@ -7,7 +7,7 @@ st.set_page_config(page_title="Portfolio - Ingénieure Génie Logiciel", layout=
 # --- Image et titre ---
 col1, col2 = st.columns([1, 3])
 with col1:
-    image = Image.open("assets/photo.jpg")  # Mets ta photo ici
+    image = Image.open("assets/Photo.jpg")  # Mets ta photo ici
     st.image(image, width=180)
 with col2:
     st.title("👩‍💻 Oumaima - Ingénieure en Génie Logiciel")
